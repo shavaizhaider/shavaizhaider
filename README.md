@@ -53,7 +53,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shavaizhaider&theme=tokyo-night" alt="activity graph" />
+  <img src="https://github-readme-activity-graph-seven-smoky.vercel.app/graph?username=shavaizhaider&theme=tokyo-night" alt="activity graph" />
 </p>
 
 ---
@@ -62,18 +62,18 @@
 
 <p align="center">
   <a href="https://github.com/shavaizhaider/Billing-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shavaizhaider&repo=Billing-System&theme=tokyonight" />
+    <img src="https://github-readme-stats-one-pi-65.vercel.app/api/pin/?username=shavaizhaider&repo=Billing-System&theme=tokyonight" />
   </a>
   <a href="https://github.com/shavaizhaider/Coffee-Machine">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shavaizhaider&repo=Coffee-Machine&theme=tokyonight" />
+    <img src="https://github-readme-stats-one-pi-65.vercel.app/api/pin/?username=shavaizhaider&repo=Coffee-Machine&theme=tokyonight" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/shavaizhaider/desktop-Alarm-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shavaizhaider&repo=desktop-Alarm-System&theme=tokyonight" />
+    <img src="https://github-readme-stats-one-pi-65.vercel.app/api/pin/?username=shavaizhaider&repo=desktop-Alarm-System&theme=tokyonight" />
   </a>
   <a href="https://github.com/shavaizhaider/Epic-Fighting-game-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shavaizhaider&repo=Epic-Fighting-game-&theme=tokyonight" />
+    <img src="https://github-readme-stats-one-pi-65.vercel.app/api/pin/?username=shavaizhaider&repo=Epic-Fighting-game-&theme=tokyonight" />
   </a>
 </p>
 
