@@ -44,8 +44,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shavaizhaider&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shavaizhaider&layout=compact&theme=tokyonight" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats-one-pi-65.vercel.app/api?username=shavaizhaider&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats-one-pi-65.vercel.app/api/top-langs/?username=shavaizhaider&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -95,37 +95,3 @@
 </p>
 
 <p align="center"><i>⭐️ From <a href="https://github.com/shavaizhaider">shavaizhaider</a> — thanks for stopping by!</i></p>
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # runs once a day
-  workflow_dispatch: # lets you trigger it manually too
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: shavaizhaider
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
